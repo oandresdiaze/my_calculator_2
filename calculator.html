@@ -9,6 +9,12 @@
 	z = Math.pow(x, 3);
 	alert("The Cube of: "+x+" is: "+z);
 	}
+	function sin() 
+	{
+	x = calc.n1.value;
+	z = Math.sin(x);
+	alert("The sin(x) of: "+x+" is: "+z);
+	}
 	</script>
 	</head>
 	<body>
@@ -17,6 +23,7 @@
 			Number:
 			<input type="number" id="n1">
 			<button onclick="cube()"> x^3 </button>
+			<button onclick="sin()"> sin(x) </button>
 		</form>
 	</body>
 </html>
