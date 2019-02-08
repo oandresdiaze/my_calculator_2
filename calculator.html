@@ -14,6 +14,11 @@
 	x = calc.n1.value;
 	z = Math.sin(x);
 	alert("The sin(x) of: "+x+" is: "+z);
+	function pow4() 
+	{
+	x = calc.n1.value;
+	z = Math.pow(x, 4);
+	alert("The pow4 of: "+x+" is: "+z);
 	}
 	</script>
 	</head>
@@ -24,6 +29,7 @@
 			<input type="number" id="n1">
 			<button onclick="cube()"> x^3 </button>
 			<button onclick="sin()"> sin(x) </button>
+			<button onclick="pow4()"> x^4 </button>
 		</form>
 	</body>
 </html>
